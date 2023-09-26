@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 
 current_dir=Path(__file__).parent if "__file__" in locals() else Path.cwd()
-css_file= "E:/StreamLit/styles/main.css"
+css_file= current_dir/"styles"/"main.css"
 resume_file=current_dir/"assets"/"YASH S Resume.pdf"
 profile_pic=current_dir/"assets"/"IMG_20230926_200253-fotor-202309270811.png"
 
