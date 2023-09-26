@@ -29,6 +29,7 @@ PROJECTS ={
     "🏆Classification_model_mini_project":"https://github.com/Singhyash9009/GIT-HUB/blob/main/MINI%20PROJECT/MINI%20PROJECT%20%202%20(CLASSIFICATION%20MODEL)%20YASH%20SINGH.ipynb",
     "🏆 Clustering_model_mini_project"    :"https://github.com/Singhyash9009/GIT-HUB/blob/main/MINI%20PROJECT/MINI%20PROJECT%203%20(CLUSTERING%20MODEL)%20YASH%20SINGH.ipynb",
     "🏆 Summary_app_tool":"https://github.com/Singhyash9009/GIT-HUB/tree/main/Summary%20App%20Tool",
+    "🏆 Resume Builder with StreamLit":"https://github.com/Singhyash9009/GIT-HUB/tree/main/Resume%20Builder%20Using%20Streamlit"
 }
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
