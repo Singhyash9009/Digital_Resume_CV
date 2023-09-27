@@ -72,7 +72,7 @@ st.write("""
 -   Shri Ramdeobaba College of Engineering & Management 2016-2020 
 
 -      🎓 Higher Secondary Certificate
--   Macro VIsion Academy 2015-2016
+-   Macro Vision Academy 2015-2016
 
 """
 )
