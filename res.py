@@ -57,21 +57,29 @@ with col2:
     )
     st.write("📫", EMAIL)
 
-GitHub= Image.open(GitHub)
-LinkedIn=Image.open(LinkedIn)
-col1, col2, col3,col4,col5,col6 = st.columns([1,1,1,1,1,1])
-with st.container():
-    col1.image(LinkedIn, width=50)
-    col4.image(GitHub, width=50)
-# --- SOCIAL LINKS ---
+
+
+# --- EXPERIENCE & QUALIFICATIONS ---
+st.write("---")
+
 st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
+st.subheader("Qualifications")
+st.write("""
+
+-      🎓 Advanced PGP in Data Science and Machine Learning 
+-   NIIT  Sep-2022 to Mar-2023
+-         🎓 Civil Engineering
+-   Shri Ramdeobaba College of Engineering & Management 2016-2020 
+
+-      🎓 Higher Secondary Certificate
+-   Macro VIsion Academy 2015-2016
+
+"""
+)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qualifications")
+st.subheader("Experience")
 st.write(
     """  
 - ✔️ Strong hands on experience and knowledge in Python,MySQL and Excel
@@ -81,6 +89,7 @@ st.write(
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
 """
 )
+
 
 st.write('\n')
 st.subheader("Skills")
@@ -117,3 +126,16 @@ st.subheader("Projects & Accomplishments")
 st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
+
+
+GitHub= Image.open(GitHub)
+LinkedIn=Image.open(LinkedIn)
+col1, col2, col3,col4,col5,col6 = st.columns([1,1,1,1,1,1])
+with st.container():
+    col1.image(LinkedIn, width=50)
+    col4.image(GitHub, width=50)
+# --- SOCIAL LINKS ---
+st.write('\n')
+cols = st.columns(len(SOCIAL_MEDIA))
+for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+    cols[index].write(f"[{platform}]({link})")
