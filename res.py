@@ -60,14 +60,10 @@ with col2:
     )
     st.write("📫", EMAIL)
 
-<<<<<<< HEAD
-=======
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
->>>>>>> da6fc01d41adb8bf5900c7aa6c8037a054a4dbf3
 st.write("---")
-
 st.write('\n')
 st.subheader("Qualifications")
 st.write("""
@@ -133,7 +129,6 @@ st.write("---")
 for project, link in PROJECTS.items():
     st.write(f"[{project}]({link})")
 
-<<<<<<< HEAD
 st.write('\n')
 st.write('---')
 st.write('\n')
@@ -147,23 +142,7 @@ with st.container():
     col3.image(GitHub, width=50)
     col5.image(Gmail,width=50)
 # --- SOCIAL LINKS ---
-
-
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
-st.write('---')
-=======
-
-GitHub= Image.open(GitHub)
-LinkedIn=Image.open(LinkedIn)
-col1, col2, col3,col4,col5,col6 = st.columns([1,1,1,1,1,1])
-with st.container():
-    col1.image(LinkedIn, width=50)
-    col4.image(GitHub, width=50)
-# --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
->>>>>>> da6fc01d41adb8bf5900c7aa6c8037a054a4dbf3
