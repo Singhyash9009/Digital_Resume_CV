@@ -6,7 +6,8 @@ current_dir=Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file= current_dir/"styles"/"main.css"
 resume_file=current_dir/"assets"/"YASH S Resume.pdf"
 profile_pic=current_dir/"assets"/"IMG_20230926_200253-fotor-202309270811.png"
-
+GitHub=current_dir/"assets"/"GitHub.png"
+LinkedIn=current_dir/"assets"/"LinkedIn.png"
 #-----general setting----#
 PAGE_TITLE ="Digital CV | Yash Singh"
 PAGE_ICON  =":wave:"
@@ -56,7 +57,12 @@ with col2:
     )
     st.write("📫", EMAIL)
 
-
+GitHub= Image.open(GitHub)
+LinkedIn=Image.open(LinkedIn)
+col1, col2, col3,col4,col5,col6 = st.columns([1,1,1,1,1,1])
+with st.container():
+    col1.image(LinkedIn, width=50)
+    col4.image(GitHub, width=50)
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
