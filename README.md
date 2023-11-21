@@ -33,11 +33,20 @@ pip install -r requirements.txt
 ```
 
 
-### Step 4.A - Run the application server for web app
+### Step 4 - Deployment of application server for web app
 ```bash
 1. Open Streamlit
 ```
 
 ```bash
-2. Open this link in browser: http://127.0.0.1:5000
+2. Open this link in browser: https://share.streamlit.io/
+```
+```
+3. Create New App with Gihub Codespaces
+```
+```
+4. Add GitHub repository name
+```
+```
+5. Create app url like (yash-singh-resume).streamlit.app
 ```
