@@ -4,8 +4,8 @@ from PIL import Image
 
 current_dir=Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file= current_dir/"styles"/"main.css"
-resume_file=current_dir/"assets"/"Yash Singh Resume.pdf"
-profile_pic=current_dir/"assets"/"IMG_20230926_200253-fotor-202309270811.png"
+resume_file=current_dir/"assets"/"Yash Singh.pdf"
+profile_pic=current_dir/"assets"/"Yash IMG.png"
 GitHub=current_dir/"assets"/"GitHub.png"
 LinkedIn=current_dir/"assets"/"LinkedIn.png"
 Gmail=current_dir/"assets"/"Gmail.png"
@@ -24,7 +24,7 @@ EMAIL  ="singhyash9009@gmail.com"
 SOCIAL_MEDIA={
     'LinkedIn':"https://www.linkedin.com/in/yash-singh-02b7341a3/",
     'GitHub'  :"https://github.com/Singhyash9009/GIT-HUB",
-    'Gmail'   :"sinyash9009@gmail.com"
+    'Gmail'   :"singhyash9009@gmail.com"
 }
 
 PROJECTS ={
